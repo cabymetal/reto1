@@ -1,0 +1,33 @@
+<HTML>
+	<head>
+		<title>select Option</title>
+	</head>
+	<body>
+		<center>
+			<h2>Upload Picture</h2><br><br>
+			<table border=1>
+				<form action="upload_file.php" method="POST" enctype="multipart/form-data">
+				<tr>
+					<td><label>Enter your user name</label></td>
+					<td><input type="text" id="userName" name="name"/></td>
+				</tr>
+				<tr>
+					<td><label>Enter your password</label></td>
+					<td><input type="password" id ="password" name="pwd"></td>
+				</tr>
+				<tr>
+					<td><label>Select file name:</label></td>
+					<td><input type="text" id="user_filename" name="filename"/></td>
+				</tr>
+				<tr>
+					<td>Select the file:</td>
+					<td><input type="file" name="upfile"/></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Upload"/></td>
+				</tr>
+				</form>
+			</table>
+		</center>
+	</body>
+</HTML>
